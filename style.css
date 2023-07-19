@@ -1,0 +1,47 @@
+* {
+    outline: 1px solid red;
+}
+
+:root {
+    background:salmon;
+}
+
+ol li {
+    font-size: 20px;
+    color: green;
+}
+
+#another-id {
+    color: orange;
+    font-size: 50px;
+}
+
+
+#hobbies {
+    color: blue;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.another-class {
+    color: pink;
+    font-size: 10px;
+}
+
+.mid-li {
+    color: yellow;
+}
+
+/*
+
+Specificity: 
+https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+
+* -> 0
+h1, ol, section - 1
+class - 10
+id - 100
+!important - 10 000
+
+*/
+
